@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Square Open Source Portfolio</title>
+    <link rel="shortcut icon" href="http://square.github.io/assets/public/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="title-logo img-responsive"
+                 src="http://square.github.io/images/logo.png"
+                 alt="Square logo"/>
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+            <h1 class="title-super text-thin">Square</h1>
+            <h4>Open Source Gurus</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive child"
+                 src="https://corner.squareup.com/images/hero.png?1414531729"
+                 alt="Main portfolio image.">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-muted ">
+            <h2 class="">Featured Work</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img class="img-responsive child"
+                 src="http://square.github.io/repo_images/picasso.jpg" alt="Picasso logo"
+                 data-toggle="modal" data-target="#picasso"/>
+
+            <h3 class="text-uppercase project-title">Picasso</h3>
+
+            <p><a href="http://square.github.io/picasso/">http://square.github.io/picasso/</a></p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive child"
+                 src="http://square.github.io/repo_images/dagger.jpg" alt="Dagger logo"
+                 data-toggle="modal" data-target="#dagger"/>
+
+            <h3 class="text-uppercase project-title">Dagger</h3>
+
+            <p><a href="http://square.github.io/dagger/">http://square.github.io/dagger/</a></p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive child"
+                 src="http://square.github.io/repo_images/otto.jpg" alt="Otto logo"
+                 data-toggle="modal" data-target="#otto"/>
+
+            <h3 class="text-uppercase project-title">Otto</h3>
+
+            <p><a href="http://square.github.io/otto/" target="_blank">http://square.github.io/otto/</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Picasso Modal -->
+<div class="modal fade" id="picasso" tabindex="-1" role="dialog" aria-labelledby="picassoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="picassoModal">Picasso</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive"
+                     src="http://square.github.io/repo_images/picasso.jpg" alt="Picasso logo">
+                A powerful image downloading and caching library for Android.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Dagger Modal -->
+<div class="modal fade" id="dagger" tabindex="-1" role="dialog" aria-labelledby="daggerModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="daggerModal">Dagger</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive"
+                     src="http://square.github.io/repo_images/dagger.jpg" alt="Dagger logo">
+                A fast dependency injector for Android and Java.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Dagger Modal -->
+<div class="modal fade" id="otto" tabindex="-1" role="dialog" aria-labelledby="ottoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="ottoModal">Otto</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive"
+                     src="http://square.github.io/repo_images/otto.jpg" alt="Otto logo">
+                An enhanced event bus with emphasis on Android support.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
